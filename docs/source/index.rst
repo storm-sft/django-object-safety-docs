@@ -1,5 +1,5 @@
 Welcome to Django Object Permission's documentation!
-===================================
+====================================================
 
 **Django Object Permissions** implements object permissions and object groups in Django.
 
