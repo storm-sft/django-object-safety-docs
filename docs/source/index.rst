@@ -17,3 +17,4 @@ Contents
 
    usage
    permissions_api
+    object_group_api
