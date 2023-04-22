@@ -1,8 +1,18 @@
+[tool.poetry]
+name = "Django Object Permissions Documentaton"
+version = "0.1.0"
+description = "Django Object Permissions Documentaton"
+authors = ["William Ferreira"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sphinx-press-theme = "^0.8.0"
+
 [build-system]
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
 name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+authors = [{name = "William Ferreira"}]
 dynamic = ["version", "description"]
