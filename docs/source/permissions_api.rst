@@ -4,7 +4,8 @@ Permissions API
 Setting a permission
 --------------------
 Import set_perm:
-   ``from safety.shortcuts import set_perm``
+.. code-block:: python
+   from safety.shortcuts import set_perm
 
 Set an object permission:
 .. code-block:: python
@@ -15,7 +16,7 @@ Set a global permission:
 
    set_perm([user_or_group], 'view_post', content_type=contentTypeOfModel)
 
-## Lifting a permission
+Lifting a permission
 --------------------
 Import lift_perm:
 .. code-block:: python
@@ -30,7 +31,7 @@ Lift (remove) a global permission:
 
    lift_perm([user_or_group], 'view_post', content_type=contentTypeOfModel)
 
-## Checking a permission
+Checking a permission
 ---------------------
 Import has_perm:
 .. code-block:: python
