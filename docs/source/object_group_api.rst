@@ -16,8 +16,8 @@ Create an object group:
    create_object_group(name='my-object-name', permissions=['view_modelname', 'change_modelname'], obj)
 
 
-Deleting an object group:
--------------------------
+Deleting an object group
+------------------------
 Import the shortcut:
 
 .. code-block:: python
@@ -31,8 +31,8 @@ Delete an object group:
    delete_object_group(name='my-object-name', obj)
 
 
-Adding a user to an object group:
----------------------------------
+Adding a user to an object group
+--------------------------------
 
 Import the shortcut:
 
@@ -47,8 +47,8 @@ Add a user to an object group:
    add_user_to_object_group(user, name='my-object-name', obj)
 
 
-Removing a user from an object group:
--------------------------------------
+Removing a user from an object group
+------------------------------------
 
 Import the shortcut:
 
@@ -61,3 +61,36 @@ Remove a user from an object group:
 .. code-block:: python
 
    remove_user_from_object_group(user, name='my-object-name', obj)
+
+
+Retrieving an object group
+--------------------------
+
+Import the shortcut:
+
+.. code-block:: python
+
+   from safety.shortcuts import retrieve_object_group
+
+
+Retrieve an object group:
+
+.. code-block:: python
+
+   retrieve_object_group(name='my-object-name', obj)
+
+
+Check if a user has permission:
+-------------------------------
+
+Import the shortcut:
+
+.. code-block:: python
+
+   from safety.shortcuts import has_gross_perm
+
+Check if a user has permission to an object group, group, or directly:
+
+.. code-block:: python
+
+   has_gross_perm([user], 'view_modelname', obj)
