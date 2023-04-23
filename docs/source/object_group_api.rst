@@ -13,7 +13,7 @@ Create an object group:
 
 .. code-block:: python
 
-   create_object_group(name='my-object-name', ['view_modelname', 'change_modelname'], obj)
+   create_object_group('my-object-name', ['view_modelname', 'change_modelname'], obj)
 
 
 Deleting an object group
@@ -28,7 +28,7 @@ Delete an object group:
 
 .. code-block:: python
 
-   delete_object_group(name='my-object-name', obj)
+   delete_object_group('my-object-name', obj)
 
 
 Adding a user to an object group
@@ -44,7 +44,7 @@ Add a user to an object group:
 
 .. code-block:: python
 
-   add_user_to_object_group(user, name='my-object-name', obj)
+   add_user_to_object_group(user, 'my-object-name', obj)
 
 
 Removing a user from an object group
@@ -60,7 +60,7 @@ Remove a user from an object group:
 
 .. code-block:: python
 
-   remove_user_from_object_group(user, name='my-object-name', obj)
+   remove_user_from_object_group(user, 'my-object-name', obj)
 
 
 Retrieving an object group
@@ -77,7 +77,7 @@ Retrieve an object group:
 
 .. code-block:: python
 
-   retrieve_object_group(name='my-object-name', obj)
+   retrieve_object_group('my-object-name', obj)
 
 
 Check if a user has permission:
