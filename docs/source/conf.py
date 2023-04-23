@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Django Object Safety'
 copyright = '2023, William Ferreira'
 author = 'William Ferreira'
 
