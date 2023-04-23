@@ -13,7 +13,7 @@ Create an object group:
 
 .. code-block:: python
 
-   create_object_group(name='my-object-name', permissions=['view_modelname', 'change_modelname'], obj)
+   create_object_group(name='my-object-name', ['view_modelname', 'change_modelname'], obj)
 
 
 Deleting an object group
