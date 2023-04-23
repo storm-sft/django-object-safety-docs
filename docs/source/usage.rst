@@ -21,7 +21,7 @@ or with poetry:
 Setup
 -----
 
-Add safety to your INSTALLED_APPS:
+Add safety to your INSTALLED_APPS
 .. code-block:: python
    INSTALLED_APPS = [
        ...
