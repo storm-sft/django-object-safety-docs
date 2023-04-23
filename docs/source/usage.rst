@@ -23,6 +23,7 @@ Setup
 
 Add safety to your INSTALLED_APPS:
 .. code-block:: python
+
    INSTALLED_APPS = [
        ...
        'safety',
