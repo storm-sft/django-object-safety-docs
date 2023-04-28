@@ -79,18 +79,3 @@ Retrieve an object group:
 
    retrieve_object_group('my-object-name', obj)
 
-
-Check if a user has permission:
--------------------------------
-
-Import the shortcut:
-
-.. code-block:: python
-
-   from safety.shortcuts import has_gross_perm
-
-Check if a user has permission to an object group, group, or directly:
-
-.. code-block:: python
-
-   has_gross_perm([user], 'view_modelname', obj)
